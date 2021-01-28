@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="progress">
+        <div class="step">
+            <p class="step-text">Username</p>
+            <div class="bullet userbullet"></div>
+        </div>
+        <div class="step">
+            <p class="step-text">Email</p>
+            <div class="bullet emailbullet"></div>
+        </div>
+        <div class="step">
+            <p class="step-text">Password</p>
+            <div class="bullet passwordbullet"></div>
+        </div>
+    </div>
+
+    <form action="">
+        <div class="field-name">
+            <label for="user"></label>
+            <i class="fas fa-user" id="icons"></i>
+            <input type="text" id="user" placeholder="Username (Minimum 6 Characters)" required>
+            <i class="fas fa-arrow-down" id="icons"></i>
+        </div>
+        <div class="field-email innactive">
+            <label for="email"></label>
+            <i class="fas fa-envelope" id="icons"></i>
+            <input type="email" id="email" placeholder="Email" required>
+            <i class="fas fa-arrow-down" id="icons"></i>
+        </div>
+        <div class="field-password innactive">
+            <label for="pass"></label>
+            <i class="fas fa-key" id="icons"></i>
+            <input type="password" id="pass" placeholder="Password (Minimum 6 Characters)" required>
+            <i class="fas fa-arrow-down" id="icons"></i>
+        </div>
+        <div class="field-finish innactive">
+            <i class="fas fa-heart" id="icons"></i>
+            <p id="thanks">Thank You!</p>
+            <i class="fas fa-heart" id="icons"></i>
+        </div>
+    </form>
+    
+    <script src="app.js"></script>
+    <script src="https://kit.fontawesome.com/2fbe54254b.js" crossorigin="anonymous"></script>
+</body>
+</html>
